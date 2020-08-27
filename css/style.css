@@ -1,0 +1,31 @@
+html{
+  background: url("giphy.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+body{
+  text-align: center;
+}
+
+.ostali {
+  background-color: #ffbf00;
+  border-color: #800000;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.ostali:hover {opacity: 1}
+
